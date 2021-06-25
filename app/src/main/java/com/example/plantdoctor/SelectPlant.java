@@ -15,6 +15,7 @@ public class SelectPlant extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_plant);
+        getSupportActionBar().setTitle("Select Plant");
         potato=findViewById(R.id.potato);
         tomato=findViewById(R.id.tomato);
         brinjal=findViewById(R.id.brinjal);
